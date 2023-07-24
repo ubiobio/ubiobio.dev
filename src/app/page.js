@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import logo from '@/assets/img/logo.png'
 import github from '@/assets/img/github.png';
 import inst from '@/assets/img/inst.png';
 import discord from '@/assets/img/discord.png';
@@ -38,7 +39,7 @@ const Header = () => {
 const Logo = () => {
   return (
     <Image
-      src="/logo.png"
+      src={logo}
       width={500}
       height={500}
       alt="Logo Open Source UBB"
