@@ -16,7 +16,12 @@ const TypingAnimation = ({ text, delay }) => {
     }
   }, [currentIndex, delay, text]);
 
-  return <span>{currentText}</span>;
+  return (
+    <span>
+      {currentText}
+      {currentIndex < text.length && <span>|</span>}
+    </span>
+  );
 };
 
 export default TypingAnimation;
