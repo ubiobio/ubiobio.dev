@@ -28,7 +28,7 @@ const Header = () => {
             title="Visita nuestro github @ubiobio"
           >
             <Image
-              className="w-auto h-auto"
+              className="w-[50px] h-[50px]"
               src={github}
               width={50}
               height={50}
@@ -42,9 +42,9 @@ const Header = () => {
             title="Únete a nuestro servidor de Discord"
           >
             <Image
-              className="w-auto h-auto"
+              className="w-[60px] h-[50px]"
               src={discord}
-              width={50}
+              width={60}
               height={50}
               alt="Logo Discord"
             />
@@ -56,7 +56,7 @@ const Header = () => {
             title="Visita nuestro instagram @opensourceubb"
           >
             <Image
-              className="w-auto h-auto"
+              className="w-[50px] h-[50px]"
               src={inst}
               width={50}
               height={50}
