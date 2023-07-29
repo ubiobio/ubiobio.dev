@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  reactStrictMode: true,
+  basePath: '/ubiobio.dev',
+  assetPrefix: '/ubiobio.dev/',
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
