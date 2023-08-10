@@ -8,15 +8,15 @@ import Image from 'next/image';
 
 const Header = () => {
   return (
-    <header className="flex flex-col justify-evenly items-center max-w-xl md:flex-row">
+    <header className="flex flex-col justify-evenly items-center max-w-xl lg:flex-row">
       <Logo />
       <section>
-        <div className="min-w-[390px] min-h-[320px]">
-          <h1 className=" text-primary-white font-semibold text-8xl text-center md:text-left m-3">
+        <div className="lg:min-w-[390px] lg:min-h-[320px]">
+          <h1 className=" text-primary-white font-semibold sm:text-8xl text-7xl text-center lg:text-left m-3 ">
             <TypingAnimation text="Open Source UBB" delay={100} />
           </h1>
         </div>
-        <p className="text-2xl text-primary-white text-center md:text-left mx-5">
+        <p className="text-2xl text-primary-white text-center lg:text-left mx-5">
           La comunidad de desarrollo de software colaborativo formada por
           estudiantes de la Universidad del Bío Bío
         </p>
