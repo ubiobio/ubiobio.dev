@@ -7,8 +7,8 @@ const Logo = () => {
       priority
       className="w-auto h-auto"
       src={logo}
-      width={500}
-      height={500}
+      width={50}
+      height={50}
       alt="Logo Open Source UBB"
     />
   );
